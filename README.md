@@ -1,149 +1,122 @@
 <div align="center">
 
-<h1> Hi, I'm zatm <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="30px" alt="hi" /></h1>
+<h1>zatm</h1>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&random=false&width=600&lines=Low-level+RE+%7C+Windows+Internals;Saf+Python+%7C+ctypes+%7C+NT+API;C+%7C+C%2B%2B+%7C+Go+%7C+Rust+%7C+ASM;Sifir+bagimlilik+%7C+sifirdan+kod" alt="typing" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&pause=1000&color=4EE1D1&center=true&vCenter=true&width=720&lines=Low-level+systems+%2F+binary+formats;Windows+internals+%2F+x64+reverse+engineering;Content-addressed+storage+%2F+kernel+development;Building+the+parts+most+people+import" alt="Low-level systems, binary formats and storage engines" />
 
 <p>
-  <a href="https://zatmdev.cloud"><img src="https://img.shields.io/badge/website-zatmdev.cloud-00F7FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="website" /></a>
-  <a href="https://github.com/z4tm?tab=followers"><img src="https://img.shields.io/github/followers/z4tm?label=Followers&style=for-the-badge&color=00F7FF" alt="followers" /></a>
+  <a href="https://z4tm.github.io/binary-canvas/"><img src="https://img.shields.io/badge/live-Binary_Canvas-4EE1D1?style=for-the-badge&logo=githubpages&logoColor=071018" alt="Binary Canvas live demo" /></a>
+  <a href="https://github.com/z4tm?tab=repositories"><img src="https://img.shields.io/badge/source-from_scratch-55A8FF?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+  <a href="https://github.com/z4tm?tab=followers"><img src="https://img.shields.io/github/followers/z4tm?label=follow&style=for-the-badge&color=1A2B38" alt="Followers" /></a>
 </p>
 
----
+</div>
 
-```cpp
-struct Developer {
-    char name[]        = "zatm";
-    char role[]        = "Low-level RE & Windows Internals";
-    char location[]    = "Vietnam";
-    char website[]     = "zatmdev.cloud";
-    char* languages[]  = {"Python", "C", "C++", "Go", "Rust", "PHP", "ASM"};
-    char* interests[]  = {"x64 disasm", "PE/ELF format", "NT API", "kernel dev", "KV stores"};
-    bool  zero_deps    = true;
-};
+```text
+focus     binary analysis · Windows internals · storage engines · kernel development
+formats   PE32+ · ELF64 · x86-64 instructions · content-addressed objects
+stack     Python · TypeScript · C# · C · C++ · Go · Rust · x86 assembly
+rule      understand the layer before hiding it behind a dependency
 ```
 
----
-
-<img src="https://github-readme-stats.vercel.app/api?username=z4tm&show_icons=true&theme=radical&hide_border=true&count_private=true&title_color=00F7FF&icon_color=00F7FF" height="180" alt="stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=z4tm&theme=radical&hide_border=true&ring_color=00F7FF&fire_color=00F7FF&currStreakLabel=00F7FF" height="180" alt="streak" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=z4tm&layout=compact&theme=radical&hide_border=true&title_color=00F7FF" width="560" alt="langs" />
-
----
-
-<h2> Featured Projects </h2>
+## Current work
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">NT-Scope x64</h3>
-      <p align="center">Saf Python ile sifirdan yazilmis x64 surec inceleme & RE catisi.<br/>Sifir harici kutuphane — Capstone/PeFile/colorama YOK.<br/>PEB walk, PE32+ parser, x64 disassembler, inline hook dedektoru, DR0-DR3, object directory, syscall stub butunluk, IDA-style scanner.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/NT-Scope-x64"><img src="https://img.shields.io/badge/repo-NT--Scope--x64-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="python" />
-        <img src="https://img.shields.io/badge/deps-0-00F7FF?style=flat-square" alt="deps" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">c-kernel-tiny</h3>
-      <p align="center">Tiny x86 kernel in C + ASM. Boots in QEMU.<br/>GDT, IDT, PIC, keyboard interrupts, VGA text driver.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/c-kernel-tiny"><img src="https://img.shields.io/badge/repo-c--kernel--tiny-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-C-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="c" />
-        <img src="https://img.shields.io/badge/ASM-x86-525252?style=flat-square" alt="asm" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">rust-elf-loader</h3>
-      <p align="center">ELF64 parser & inspector in Rust.<br/>No crates — raw byte parsing of headers, segments, sections, symbols.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/rust-elf-loader"><img src="https://img.shields.io/badge/repo-rust--elf--loader-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="rust" />
-        <img src="https://img.shields.io/badge/deps-0-00F7FF?style=flat-square" alt="deps" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">tinydb-go</h3>
-      <p align="center">Embedded key-value store in Go.<br/>Append-only log, CRC32 per record, in-memory index, compaction.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/tinydb-go"><img src="https://img.shields.io/badge/repo-tinydb--go-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">cpp-json-parser</h3>
-      <p align="center">Header-only C++20 JSON parser.<br/>No dependencies, one file, ~340 lines, full unicode support.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/cpp-json-parser"><img src="https://img.shields.io/badge/repo-cpp--json--parser-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="cpp" />
-        <img src="https://img.shields.io/badge/deps-0-00F7FF?style=flat-square" alt="deps" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">asm-brainfuck</h3>
-      <p align="center">Brainfuck interpreter in x86-64 assembly.<br/>~130 lines, no libc, direct syscalls only.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/asm-brainfuck"><img src="https://img.shields.io/badge/repo-asm--brainfuck-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-ASM-525252?style=flat-square&logo=assemblyscript&logoColor=white" alt="asm" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">go-http-from-scratch</h3>
-      <p align="center">HTTP/1.1 server from raw TCP sockets.<br/>No net/http — manual request parsing, response serialization.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/go-http-from-scratch"><img src="https://img.shields.io/badge/repo-go--http--from--scratch-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">zatm-payment-sandbox</h3>
-      <p align="center">Open-source mock payment gateway & API service.<br/>PHP & MySQL, sandbox for testing.</p>
-      <p align="center">
-        <a href="https://github.com/z4tm/zatm-payment-sandbox"><img src="https://img.shields.io/badge/repo-payment--sandbox-00F7FF?style=for-the-badge&logo=github" alt="repo" /></a>
-        <img src="https://img.shields.io/badge/language-PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="php" />
-        <img src="https://img.shields.io/badge/db-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="mysql" />
-      </p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Binary Canvas](https://github.com/z4tm/binary-canvas)
+
+Private PE/ELF explorer that runs entirely in the browser. It links headers, sections, strings, entropy and raw bytes in one workspace.
+
+[Live demo](https://z4tm.github.io/binary-canvas/) · TypeScript · zero runtime dependencies
+
+[![build](https://github.com/z4tm/binary-canvas/actions/workflows/pages.yml/badge.svg)](https://github.com/z4tm/binary-canvas/actions/workflows/pages.yml)
+
+</td>
+<td width="50%" valign="top">
+
+### [Merkle Vault](https://github.com/z4tm/merkle-vault)
+
+Content-addressed backup engine with rolling chunk boundaries, SHA-256 objects, Brotli storage, snapshots, diff, verify and safe restore.
+
+C# · .NET 8 · zero NuGet dependencies
+
+[![test](https://github.com/z4tm/merkle-vault/actions/workflows/test.yml/badge.svg)](https://github.com/z4tm/merkle-vault/actions/workflows/test.yml)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [NT-Scope x64](https://github.com/z4tm/NT-Scope-x64)
+
+Read-only Windows x64 process inspection framework built with Python, `ctypes` and native NT APIs. Includes memory-backed PE parsing, x64 decoding, handle inspection and hook integrity checks.
+
+Python · Windows NT API · no third-party packages
+
+</td>
+<td width="50%" valign="top">
+
+### [c-kernel-tiny](https://github.com/z4tm/c-kernel-tiny)
+
+Freestanding x86 kernel with an MBR bootloader, protected-mode transition, GDT, IDT, PIC, keyboard IRQs and a VGA text driver.
+
+C · NASM · QEMU
+
+[![build](https://github.com/z4tm/c-kernel-tiny/actions/workflows/build.yml/badge.svg)](https://github.com/z4tm/c-kernel-tiny/actions/workflows/build.yml)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [tinydb-go](https://github.com/z4tm/tinydb-go)
+
+Embedded key-value store using an append-only log, CRC32 records, tombstones, crash-tail recovery and compaction.
+
+Go · standard library only
+
+[![test](https://github.com/z4tm/tinydb-go/actions/workflows/test.yml/badge.svg)](https://github.com/z4tm/tinydb-go/actions/workflows/test.yml)
+
+</td>
+<td width="50%" valign="top">
+
+### [rust-elf-loader](https://github.com/z4tm/rust-elf-loader)
+
+ELF64 inspector that parses headers, segments, sections and symbols directly from raw bytes without parser crates.
+
+Rust · standard library only
+
+</td>
+</tr>
 </table>
 
----
-
-<h2> Tech Stack </h2>
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="c" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="cpp" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="go" />
-  <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=white" alt="rust" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="php" />
-  <img src="https://img.shields.io/badge/ASM-525252?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="asm" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Windows_Internals-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="win" />
-  <img src="https://img.shields.io/badge/NT_API-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="ntapi" />
-  <img src="https://img.shields.io/badge/x64_RE-00F7FF?style=for-the-badge&logo=amd&logoColor=white" alt="x64" />
-  <img src="https://img.shields.io/badge/PE_/_ELF-00F7FF?style=for-the-badge&logo=files&logoColor=white" alt="pe" />
-  <img src="https://img.shields.io/badge/Kernel_Dev-0078D6?style=for-the-badge&logo=linux&logoColor=white" alt="kernel" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql" />
-</p>
-
----
-
-<img src="https://raw.githubusercontent.com/z4tm/z4tm/output/github-snake-dark.svg" alt="snake" />
-
----
+## Languages and systems
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=z4tm&style=for-the-badge&color=00F7FF" alt="views" />
+
+<img src="https://skillicons.dev/icons?i=python,ts,cs,c,cpp,go,rust,php" alt="Python, TypeScript, C sharp, C, C++, Go, Rust and PHP" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Windows_Internals-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows Internals" />
+<img src="https://img.shields.io/badge/x86--64-Reverse_Engineering-4EE1D1?style=flat-square" alt="x86-64 reverse engineering" />
+<img src="https://img.shields.io/badge/PE_%2F_ELF-Binary_Formats-55A8FF?style=flat-square" alt="PE and ELF" />
+<img src="https://img.shields.io/badge/Content_Addressing-SHA--256-FF9B62?style=flat-square" alt="Content addressing" />
+<img src="https://img.shields.io/badge/Kernel-Freestanding_C-6F8795?style=flat-square" alt="Kernel development" />
+
+</div>
+
+## Activity
+
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=z4tm&show_icons=true&hide_border=true&bg_color=060B10&title_color=4EE1D1&text_color=DBE8EF&icon_color=55A8FF" alt="GitHub stats" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=z4tm&layout=compact&hide_border=true&bg_color=060B10&title_color=4EE1D1&text_color=DBE8EF" alt="Top languages" />
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=z4tm&style=flat-square&color=1A2B38&label=profile+views" alt="Profile views" />
+
 </div>
